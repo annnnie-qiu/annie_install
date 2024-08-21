@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='annnie_install',
-    version='0.1',
+    name='LLM4HW',
+    version='0.5',
     packages=find_packages(),
     install_requires=[
         # List your dependencies here
@@ -13,6 +13,7 @@ setup(
         'openai',
         'Flask',
         # 'python3-tk',
+        'requests',
     ],
     author='Siyu Qiu',
     author_email='siyu.qiu1@unsw.edu.au',
