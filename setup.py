@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='LLM4HW',
-    version='0.5',
+    version='0.6',
     packages=find_packages(),
     install_requires=[
         # List your dependencies here
@@ -20,7 +20,7 @@ setup(
     description='Everything you need to install for the LLM4HW tool',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/annnie_file',  # Replace with your repo URL
+    url='https://github.com/annnnie-qiu/annie_install.git',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: LLM4HW
-Version: 0.5
+Version: 0.6
 Summary: Everything you need to install for the LLM4HW tool
-Home-page: https://github.com/yourusername/annnie_file
+Home-page: https://github.com/annnnie-qiu/annie_install.git
 Author: Siyu Qiu
 Author-email: siyu.qiu1@unsw.edu.au
 Classifier: Programming Language :: Python :: 3
