@@ -2,3 +2,4 @@ numpy
 openai
 Flask
 requests
+python-dotenv

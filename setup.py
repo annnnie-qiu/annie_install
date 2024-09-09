@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name='LLM4HW',
-    version='0.6',
+    version='0.7',
     packages=find_packages(),
     install_requires=[
-        # List your dependencies here
+        # List dependencies
         # pip install openai
         # pip install Flask
         # sudo apt-get install python3-tk
@@ -14,6 +14,9 @@ setup(
         'Flask',
         # 'python3-tk',
         'requests',
+        # python-dotenv
+        'python-dotenv',
+
     ],
     author='Siyu Qiu',
     author_email='siyu.qiu1@unsw.edu.au',
