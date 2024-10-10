@@ -2,8 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='LLM4HW',
-    version='0.7',
+    version='0.9',
     packages=find_packages(),
+    include_package_data=True,  # Ensures MANIFEST.in is used to include files
     install_requires=[
         # List dependencies
         # pip install openai
@@ -18,6 +19,9 @@ setup(
         'python-dotenv',
 
     ],
+    package_data={
+        '': ['*.env', '*.tcl', '*.md'],
+    },
     author='Siyu Qiu',
     author_email='siyu.qiu1@unsw.edu.au',
     description='Everything you need to install for the LLM4HW tool',
